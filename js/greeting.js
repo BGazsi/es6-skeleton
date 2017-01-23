@@ -9,6 +9,6 @@ export default class Greeting {
 	}
 
 	toString() {
-		return 'Hello ' + this._name + '!';
+		return 'Hello ' + this.getName() + '!';
 	}
 }
